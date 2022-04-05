@@ -1,0 +1,27 @@
+div {
+  border-style: solid;
+  border-color: rebeccapurple;
+  height: 200px;
+}
+.div1 {
+  background-color: grey;
+  font: bolder;
+  color: blanchedalmond;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+}
+
+/*
+relativ: 
+    bezieht sich auf die Ursprungsposition
+---------------------------------------------------------------------------------------------
+absolute: 
+    bezieht sich auf den Vatercontainer wo das Element drinnen ist (z.b. Body)
+---------------------------------------------------------------------------------------------
+fixed: 
+    bleibt immer an derselben position (quasi auf einer Ebene über den elementen darunter); 
+    scroll beeinflust die position nicht
+---------------------------------------------------------------------------------------------
+sticky: 
+    wandert zuerst mit, bleibt dann 'stecken'*/
