@@ -1,0 +1,17 @@
+.container {
+    background-color: #5ad;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color: #123524;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    font-style: bold;
+    text-align: center;
+    font-family: monospace;
+}
