@@ -1,0 +1,34 @@
+body {
+    font-family: monospace;
+}
+.containerTop {
+    height: 68vh;
+    background-color: #123524;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerBottom {
+    background-color: darkolivegreen;
+    height: 29vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxTop {
+    background-color: darkolivegreen;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxBottom {
+    background-color: #123524;
+    width: 100px;
+    height: 100px;
+}
+#pussyPic {
+    height: 200px;
+}
