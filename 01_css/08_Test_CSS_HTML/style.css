@@ -1,0 +1,40 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: springgreen;
+}
+
+.content {
+    padding: 20px;
+    background-color: grey;
+    width: 760px;
+    height: 300px;
+    position: relative;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.smol {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 140px;
+    background-color: burlywood;
+}
+.box {
+    display: flex;
+    background-color: darkolivegreen;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.boxes {
+    background-color: darkslategrey;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
