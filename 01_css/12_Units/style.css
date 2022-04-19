@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    font-family: monospace;
+    font-size: 20px; /*root font size*/
+}
+
+div {
+    height: 50px;
+    background-color: mediumseagreen;
+}
+
+.container1 {
+    width: 50%;
+    background-color: blue;
+    font-size: 0.8rem;
+    /*in relation above (root) declared font size*/
+}
+
+.container2 {
+    width: 50vw;
+    height: 50vh;
+    background-color: grey;
+    font-size: 1em; /* relation to daddycontainer*/
+}
+
+.main {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    font-size: 1.5rem;
+}
