@@ -1,0 +1,70 @@
+* {
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande,
+        sans-serif;
+    font-feature-settings: "liga", "kern";
+    --darkRed: #790000;
+    --lightRed: #bb131a;
+    --red: #9e0b0f;
+    color: white;
+    margin-top: 0;
+}
+
+.main {
+    max-width: 875px;
+    margin-left: 6.5%;
+}
+
+.header {
+    display: flex;
+    background-color: var(--red);
+    height: auto;
+    font-size: 0.9em;
+    align-items: center;
+    padding-right: 9px;
+    font-weight: 550;
+}
+
+.logo {
+    background-color: var(--lightRed);
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+.subheader {
+    display: flex;
+    background-color: var(--darkRed);
+    height: 35px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+.image {
+    height: 450px;
+    background-color: darkgrey;
+    font-weight: 400;
+    font-size: 26;
+    line-height: 29.9px;
+}
+
+.list {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 18px;
+    padding: 0;
+    height: 29px;
+    outline: none;
+    list-style-type: none;
+    flex: 6;
+}
+
+.list > li {
+    flex: 0 0 auto;
+    display: inline-block;
+    width: auto;
+    margin: 1%;
+}
