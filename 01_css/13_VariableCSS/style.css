@@ -1,0 +1,22 @@
+* {
+    font-size: 18px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    --fontSizeBig: 1.5rem;
+    --fontSizeMedium: 1.3rem;
+    --fontSizeNormal: 0.8rem;
+    --mainColor: rgb(12, 83, 88);
+}
+.header {
+    font-size: var(--fontSizeBig);
+    font-weight: 800;
+}
+.subheader {
+    font-size: var(--fontSizeMedium);
+    background-color: var(--mainColor);
+}
+.main {
+    font-size: var(--fontSizeNormal);
+}
+.sidebar {
+    font-size: var(--fontSizeNormal);
+}
