@@ -5,8 +5,11 @@
     --darkRed: #790000;
     --lightRed: #bb131a;
     --red: #9e0b0f;
-    color: white;
     margin-top: 0;
+}
+
+body {
+    background-color: #d6dcde;
 }
 
 .main {
@@ -22,6 +25,7 @@
     align-items: center;
     padding-right: 9px;
     font-weight: 550;
+    color: white;
 }
 
 .logo {
@@ -32,9 +36,11 @@
     align-items: center;
     padding-left: 15px;
     font-size: 1.5em;
+    color: white;
 }
 
 .subheader {
+    color: white;
     display: flex;
     background-color: var(--darkRed);
     height: 35px;
@@ -44,11 +50,8 @@
     align-items: center;
 }
 .image {
-    height: 450px;
+    margin-top: 8px;
     background-color: darkgrey;
-    font-weight: 400;
-    font-size: 26;
-    line-height: 29.9px;
 }
 
 .list {
@@ -67,4 +70,45 @@
     display: inline-block;
     width: auto;
     margin: 1%;
+}
+
+.content {
+    background-color: white;
+    height: 400px;
+    width: 640px;
+    position: relative;
+    top: -140px;
+    margin: auto;
+    padding: 30px;
+    z-index: 69420;
+}
+
+.catergory {
+    color: #84868c;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: "ORF ON Condensed", "Helvetica Condensed",
+        "Helvetica Neue Condensed", "Arial Narrow", Arial, Helvetica,
+        Lucida Sans Unicode, Lucida Grande, sans-serif;
+    line-height: 1.875rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+p {
+    font-family: "ORF ON Condensed", "Helvetica Condensed",
+        "Helvetica Neue Condensed", "Arial Narrow", Arial, Helvetica,
+        Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 16px;
+}
+.back {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -528px;
 }
